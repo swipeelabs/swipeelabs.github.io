@@ -36,7 +36,7 @@ export default function Home() {
       <section className="contact-card" id="contact" aria-labelledby="contact-title">
         <p className="eyebrow">CONTACT</p><h2 id="contact-title">解決しない場合</h2>
         <p>ご利用のiOSバージョンと、問題が起きた画面を添えてお問い合わせください。</p>
-        <p className="contact-note">お問い合わせメールは公開前に設定します。</p>
+        <a className="contact-note" href="mailto:support.swipee@gmail.com">support.swipee@gmail.com</a>
       </section>
     </main>
     <footer><div className="footer-brand">Swipee</div><div className="footer-links"><Link href="/privacy/">プライバシーポリシー</Link><Link href="/terms/">利用規約</Link></div><p>© 2026 Swipee Labs</p></footer>

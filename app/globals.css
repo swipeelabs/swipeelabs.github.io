@@ -34,7 +34,7 @@ details[open] summary::after { content:"−"; }
 details p { max-width:780px; padding:0 42px 24px 0; color:var(--muted); }
 .contact-card { margin:72px 0 110px; padding:clamp(30px,6vw,64px); border-radius:32px; }
 .contact-card>p:not(.eyebrow) { color:var(--muted); }
-.contact-note { display:inline-block; padding:9px 13px; border-radius:10px; background:var(--coral-soft); font-size:.88rem; }
+.contact-note { display:inline-block; padding:9px 13px; border-radius:10px; background:var(--coral-soft); color:var(--coral); font-size:.88rem; font-weight:700; text-decoration:none; }
 .policy-main { max-width:860px; }
 .policy-hero { padding:70px 0 54px; }
 .policy-hero h1 { font-size:clamp(2.6rem,7vw,4.8rem); }
